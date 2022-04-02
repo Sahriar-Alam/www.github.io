@@ -1,0 +1,16 @@
+
+@media only screen and (max-width: 1079px) {
+    .header-text h1 {
+    font-size: 51px;
+     
+ }
+
+}
+
+@media only screen and (max-width: 893px) {
+    .header-text h1 {
+    font-size: 37px!important;
+     
+ }
+
+}

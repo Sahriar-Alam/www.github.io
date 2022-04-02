@@ -1,0 +1,629 @@
+/*-------------------------
+-----Table-Of-Content------
+01. Helper-Class 
+02. Mainmenu-Area
+03. Header-Area
+
+---------------------------
+01. Helper-Class 
+--------------------------*/
+.text-highlight {
+    color: #ff0b5f;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.section-title .top-title {
+    color: #ff0b5f;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-title .main-title {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.section-padding-top {
+    padding-top: 140px;
+}
+
+.section-padding-bottom {
+    padding-bottom: 140px;
+}
+
+.button-one,
+.button-two,
+.button-three {
+    border: 1px solid #ff0b5f;
+    color: #ff0b5f;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 9px 28px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.button-one {
+    background-color: #3791ff;
+    border-color: #3791ff;
+    color: #ffffff;
+}
+
+.button-one:hover {
+    background-color: #ffffff;
+    color: #3791ff;
+}
+
+
+.button-two:hover {
+    background-color: #ff0b5f;
+    color: #ffffff;
+}
+
+.button-three {
+    border: 1px solid #3791ff;
+    color: #3791ff;
+}
+
+.button-three:hover {
+    background-color: #3791ff;
+    color: #ffffff;
+}
+
+/*---------------------------
+02. Mainmenu-Area
+--------------------------*/
+.mainmenu-area {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+    padding: 30px 0px;
+    transition: 0.3s;
+    box-shadow:
+}
+
+.mainmenu-area.sticky {
+    background-color: #ffffff;
+    position: fixed;
+    padding: 10px 0px;
+}
+
+.mainmenu-area .navbar-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainmenu-area .logo {
+    max-width: 200px;
+}
+
+#primary-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#primary-menu>ul {
+    display: flex;
+    align-items: center;
+}
+
+#primary-menu ul li a {
+    color: #012442;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#primary-menu>ul>li>a {
+    display: block;
+    padding: 20px 15px;
+}
+
+#primary-menu ul li.active>a,
+#primary-menu ul li:hover>a {
+    color: #ff0b5f;
+}
+
+.social-menu {
+    display: flex;
+    align-items: center;
+    margin: 0px -7px;
+}
+
+.social-menu a {
+    width: 43px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    color: #ff0b5f;
+    font-size: 14px;
+    margin: 0px 7px;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/sc-bg.png");
+}
+
+.social-menu a:hover {
+    background-image: url("../images/sc-hover-bg.png");
+    color: #ffffff;
+}
+
+/*---------------------------
+03. Header-Area
+--------------------------*/
+.header-area {
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    background: url("../images/header-bg.png") no-repeat scroll right top;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.header-area .header-text .top-title {
+    text-transform: uppercase;
+    color: #3791ff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-area .header-text .main-title {
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+/*---------------------------
+00. Sponsor-Area
+--------------------------*/
+
+.sponsor-slider .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.sponsor-slider .slider-item {
+    margin: 0px 25px;
+}
+
+
+/*---------------------------
+00. About-Area
+--------------------------*/
+.about-area {
+    background: url('../images/about-bg.png') no-repeat center left / auto;
+}
+
+.about-text .main-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-text .desc {
+    margin-bottom: 40px;
+}
+
+
+/*---------------------------
+00. Service-Area
+--------------------------*/
+.service-area {
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+
+.service-box {
+    margin-bottom: 40px;
+}
+
+.service-box .service-icon {
+    margin-bottom: 30px;
+}
+
+.service-box .service-title {
+    margin-bottom: 20px;
+    font-size: 24x;
+}
+
+.service-box .desc {
+    margin-bottom: 20px;
+}
+
+
+/*---------------------------
+00. Counter-Area
+--------------------------*/
+.counter-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8fcff;
+}
+
+.counter-box {
+    text-align: center;
+}
+
+.counter-box .counter-icon {
+    margin-bottom: 20px;
+}
+
+.counter-box .counter-number {
+    font-size: 70px;
+    font-weight: 900;
+    color: #012442;
+    line-height: 1em;
+}
+
+.counter-box .counter-title {
+    color: #929596;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+/*---------------------------
+00. Portfolio-Area
+--------------------------*/
+.portfolio-area {
+    padding-bottom: 0px;
+}
+
+.work-filter {
+    list-style: none;
+    margin: 0px -15px;
+    padding: 0px;
+}
+
+.work-filter li {
+    display: inline-block;
+    margin: 0px 15px;
+    color: #012442;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.work-filter li.active {
+    color: #ff0b5f;
+}
+
+.work-box {
+    border: 1px solid #e9eaea;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: 0.3s;
+    transform: translateY(0px);
+}
+
+.work-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.03);
+}
+
+.work-box .work-image {
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.work-box .work-details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-box .work-details .work-title {
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.work-box .work-details .meta a {
+    color: #929596;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+/*---------------------------
+00. Testimonial-Area
+--------------------------*/
+.testimonial-team-area {
+    background: url("../images/team-bg.png") no-repeat scroll top center / 100% auto;
+    padding-top: 50px;
+}
+
+.testimonial-sliders {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.testimonial-box {
+    padding: 0px 40px 40px 40px;
+    border-radius: 10px;
+    margin: 40px 15px 0px;
+    background-color: #ffffff;
+}
+
+.testimonial-box .testimonial-quote {
+    color: #ff0b5f;
+    width: 80px;
+    height: 80px;
+    border: 5px solid #ff0b5f;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 100px;
+    line-height: 70px;
+    margin-top: -40px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+}
+
+.testimonial-box .testimonial-footer {
+    margin-top: 35px;
+    position: relative;
+    padding-left: 80px;
+}
+
+.testimonial-box .testimonial-footer .client-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.testimonial-box .testimonial-footer .client-name:before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #ff0b5f;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.testimonial-slider-arrow {
+    margin: 0px -2px;
+}
+
+.testimonial-slider-arrow .slider-control {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+    color: #ffffff;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    margin: 0px 2px;
+}
+
+.testimonial-slider-arrow .slider-control:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #ff0b5f;
+}
+
+/*---------------------------
+00. Team-Area
+--------------------------*/
+.team-box .team-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.team-box .team-image img {
+    filter: brightness(1);
+    transform: scale(1) rotate(0deg);
+    transition: 0.3s;
+}
+
+.team-box:hover .team-image img {
+    filter: brightness(0.8);
+    transform: scale(1.1) rotate(2deg);
+}
+
+
+.team-box .team-name {
+    margin-top: 25px;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.team-box {
+    text-align: center;
+}
+
+
+/*---------------------------
+00. Blog-Area
+--------------------------*/
+.blog-area {
+    background: url('../images/post-bg.png') no-repeat scroll center left / auto;
+}
+
+.blog-slider {
+    margin: 0px -15px;
+}
+.blog-box {
+    margin: 0px 15px;
+}
+
+.blog-box .blog-image {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.blog-box .blog-meta {
+    list-style: none;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog-box .blog-meta li {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.blog-box .blog-meta li .icon {
+    margin-right: 5px;
+    color: #ff0b5f;
+}
+
+.blog-box .blog-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blog-box .blog-title a {
+    color: #012442;
+}
+
+.blog-box .blog-title a:hover {
+    color: #ff0b5f;
+}
+
+.blog-box .desc {
+    margin-bottom: 30px;
+}
+
+/*---------------------------
+00. Contact-Area
+--------------------------*/
+.contact-form .form-control {
+    margin-bottom: 30px;
+    min-height: 60px;
+    padding: 20px;
+    box-shadow: none;
+    border-color: #e9eaea;
+}
+
+.contact-form textarea.form-control {
+    min-height: 120px;
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+    border-color: #012442;
+}
+
+/*---------------------------
+00. Footer-Area
+--------------------------*/
+.footer-widget {
+    margin-bottom: 60px;
+}
+
+.footer-widget .widget-title {
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.nav-links {
+    list-style: none;
+    margin: -5px 0px;
+    padding: 0px;
+}
+
+.nav-links li {
+    display: block;
+    margin: 5px 0px;
+}
+
+.nav-links li a {
+    color: #929596;
+}
+
+.nav-links li a:hover {
+    color: #ff0b5f;
+}
+
+.icon-info {
+    list-style: none;
+    margin: -5px 0px;
+    padding: 0px;
+}
+
+.icon-info li {
+    margin: 5px 0px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.icon-info li .icon {
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    color: #ff0b5f;
+    width: 20px;
+    text-align: center;
+}
+
+.icon-info li {
+    color: #012442;
+}
+
+.footer-bottom-area {
+    background-color: #012442;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+#scrollUp {
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    border-radius: 100px;
+    border: 5px solid #ffffff;
+    background-color: #012442;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    margin: -35px auto 0px;
+}
+
+#scrollUp:hover {
+    background-color: #ff0b5f;
+}
+
+.footer-menu ul {
+    list-style: none;
+    margin: 0px -15px;
+    padding: 0px;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li a {
+    display: block;
+    color: #ffffff;
+    padding: 5px 15px;
+}
